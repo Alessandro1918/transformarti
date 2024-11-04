@@ -4,6 +4,7 @@ import { FaBuilding } from "react-icons/fa"
 import { FaWhatsapp } from "react-icons/fa"
 import { FaPhoneAlt } from "react-icons/fa"
 import { FaInstagram } from "react-icons/fa"
+import { Map } from "./map"
 
 export function Footer() {
 
@@ -15,13 +16,13 @@ Gostaria de marcar uma consulta.`
   const whatsappUrl = `https://api.whatsapp.com/send/?phone=${whatsappPhone}&text=${whatsappEncodedText}`
 
   return (
-    <div className="flex flex-col sm:flex-row sm:items-center w-full gap-4 p-4 bg-blue-500">
+    <div className="mt-4 flex flex-col sm:flex-row w-full gap-4 p-4 bg-blue-500">
       <img 
         src="/assets/logo.png"
-        className="max-sm:mx-auto h-36 sm:h-48 bg-white"
+        className="m-auto h-36 sm:h-48 bg-white"
       />
 
-      <div className="flex flex-col gap-2">
+      <div className="flex flex-col gap-2 order-3 sm:order-2">
         <p className="text-white text-2xl font-semibold">
           Contato
         </p>
@@ -60,7 +61,7 @@ Gostaria de marcar uma consulta.`
           <FaPhoneAlt className="fill-white size-4"/>
           <p className="text-white font-medium">
             {/* whatsappPhone, formated: */}
-            (11) 9-6574-5577
+            (11) 96574-5577
           </p>
         </a>
 
@@ -83,6 +84,13 @@ Gostaria de marcar uma consulta.`
             @TransformArtiOdontologia
           </p>
         </a>
+      </div>
+
+      <div className="flex flex-col gap-2 h-48 sm:h-72 flex-1 order-2 sm:order-3">
+        <p className="text-white text-2xl font-semibold">
+          Localização
+        </p>
+        <Map />
       </div>
     </div>
   )
