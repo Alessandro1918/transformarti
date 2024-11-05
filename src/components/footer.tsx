@@ -27,15 +27,14 @@ Gostaria de marcar uma consulta.`
           Contato
         </p>
 
-        <a 
+        <div 
           className="flex flex-row items-center gap-2"
-          href="https://www.eztec.com.br/imovel/parque-da-cidade/complexo/"
         >
           <FaMapPin className="fill-white size-4"/>
           <p className="text-white font-medium">
             Cond. Pq da Cidade, Torre Tarumã
           </p>
-        </a>
+        </div>
         
         <a 
           className="flex flex-row items-center gap-2"
@@ -71,7 +70,8 @@ Gostaria de marcar uma consulta.`
         >
           <FaWhatsapp className="fill-white size-4"/>
           <p className="text-white font-medium">
-            {`wa.me/${whatsappPhone}`}
+            {/* whatsappPhone, formated: */}
+            (11) 96574-5577
           </p>
         </a>
 
