@@ -19,7 +19,8 @@ Gostaria de marcar uma consulta.`
     <div className="mt-4 flex flex-col sm:flex-row w-full gap-4 p-4 bg-blue-500">
       <img 
         src="/assets/logo.png"
-        className="m-auto h-36 sm:h-48 bg-white"
+        className="m-auto w-80 bg-white"
+        // className="m-auto h-24 sm:h-48 bg-white"
       />
 
       <div className="flex flex-col gap-2 order-3 sm:order-2">
@@ -27,15 +28,14 @@ Gostaria de marcar uma consulta.`
           Contato
         </p>
 
-        <a 
+        <div 
           className="flex flex-row items-center gap-2"
-          href="https://www.eztec.com.br/imovel/parque-da-cidade/complexo/"
         >
           <FaMapPin className="fill-white size-4"/>
           <p className="text-white font-medium">
             Cond. Pq da Cidade, Torre Tarumã
           </p>
-        </a>
+        </div>
         
         <a 
           className="flex flex-row items-center gap-2"
@@ -71,7 +71,8 @@ Gostaria de marcar uma consulta.`
         >
           <FaWhatsapp className="fill-white size-4"/>
           <p className="text-white font-medium">
-            {`wa.me/${whatsappPhone}`}
+            {/* whatsappPhone, formated: */}
+            (11) 96574-5577
           </p>
         </a>
 
