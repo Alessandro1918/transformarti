@@ -15,7 +15,7 @@ export function Team() {
       </p>
 
       <div className="mx-auto mt-12">
-        <div className="flex flex-wrap gap-12 justify-center">
+        <div className="flex flex-wrap gap-9 justify-center">
           {
             team.map(e => {
               return (

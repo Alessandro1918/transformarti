@@ -8,37 +8,37 @@ export function getTeam(): TeamItemProps[] {
   return [
     {
       image: "/assets/team/debora.jpeg",
-      name: "Dra. Débora 1",
+      name: "Dra. Débora",
       title: "Duis aute irure dolor"
     },
     {
       image: "/assets/team/debora.jpeg",
-      name: "Dra. Débora 2",
+      name: "Dra. Monica A.",
       title: "In reprehenderit in voluptate"
     },
     {
       image: "/assets/team/debora.jpeg",
-      name: "Dra. Débora 3",
+      name: "Dra. Erica B.",
       title: "Dolore eu fugiat nulla pariatur"
     },
     {
       image: "/assets/team/debora.jpeg",
-      name: "Dra. Débora 4",
+      name: "Dra. Rita",
       title: "Excepteur occaecat / Duis aute irure dolor"
     },
     {
       image: "/assets/team/debora.jpeg",
-      name: "Dra. Débora 5",
+      name: "Dra. Tina C.",
       title: "Excepteur sint occaecat"
     },
     {
       image: "/assets/team/debora.jpeg",
-      name: "Dra. Débora 6",
+      name: "Dra. Sandra D. E.",
       title: "Excepteur sint occaecat"
     },
     {
       image: "/assets/team/debora.jpeg",
-      name: "Dra. Débora 7",
+      name: "Dra. Mary",
       title: "Excepteur sint occaecat"
     },
   ]
