@@ -19,7 +19,7 @@ Vi o site de vocês, e gostaria de marcar uma consulta.`
     <div className="mt-4 flex flex-col sm:flex-row w-full gap-4 p-4 bg-blue-500">
       <img 
         src="/assets/logo.png"
-        className="m-auto w-80 bg-white"
+        className="m-auto w-80 bg-blue-100 rounded-xl"
         // className="m-auto h-24 sm:h-48 bg-white"
       />
 
