@@ -2,15 +2,20 @@ import { TeamItemProps } from "../requests/get-team"
 
 export function TeamItem({image, name, title}: TeamItemProps) {
   return (
-    <div className="flex flex-col justify-center items-center">
-      <img 
-        src={image}
-        className="size-36 sm:size-48 rounded-full"
-        alt={`Membro da equipe: ${name}`}
-        title={`Membro da equipe: ${name}`}
-      />
-      <p className="mt-1 text-2xl font-bold">{name}</p>
-      <p className="mt-2 text-base text-center h-12 max-w-36 sm:max-w-48">{title}</p>
+    <div className="flex flex-col justify-center items-center w-44 sm:w-56 shadow-xl rounded-b-xl">
+      <div className="h-32 sm:h-44 py-3 px-3 bg-blue-800 rounded-t-xl">
+        <img 
+          src={image}
+          className=""
+          alt={`Membro da equipe: ${name}`}
+          title={`Membro da equipe: ${name}`}
+        />
+      </div>
+
+      <div className="mt-9 h-32 px-3">
+        <p className="mt-2 text-xl font-bold">{name}</p>
+        <p className="mt-2 text-gray-600">{title}</p>
+      </div>
     </div>
   )
 }

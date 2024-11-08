@@ -14,6 +14,7 @@ export function ImageSlider(props: { images: any[] }) {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
+    centerMode: true,
     responsive: [
       {
         breakpoint: 1024,
@@ -75,7 +76,7 @@ export function ImageSlider(props: { images: any[] }) {
   return (
     <Slider 
       {...settings}
-      className="px-4 w-full"
+      className="mt-4 w-full"
     >
       {
         props.images.map((e: any, i) => {
