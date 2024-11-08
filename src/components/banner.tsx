@@ -9,8 +9,8 @@ export function Banner() {
       {/* opacity: */}
       <div className="absolute size-full top-0 right-0 bg-black opacity-25"></div>
 
-      <p className="z-10 text-5xl text-white font-bold w-3/4 sm:w-1/2 sm:px-8">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit
+      <p className="z-10 text-white font-bold text-4xl sm:text-5xl w-3/4 sm:w-1/2 sm:px-8">
+        Equipe de dentista especialistas com foco em excelência e atendimento humanizado
       </p>
     </div>
   )
