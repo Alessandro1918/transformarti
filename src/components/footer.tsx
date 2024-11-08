@@ -11,7 +11,7 @@ export function Footer() {
   const whatsappPhone = 5511965745577
   const whatsappText = 
 `Boa tarde!
-Gostaria de marcar uma consulta.`
+Vi o site de vocês, e gostaria de marcar uma consulta.`
   const whatsappEncodedText = encodeURIComponent(whatsappText)
   const whatsappUrl = `https://api.whatsapp.com/send/?phone=${whatsappPhone}&text=${whatsappEncodedText}`
 

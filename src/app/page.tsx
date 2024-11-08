@@ -3,6 +3,7 @@ import { Banner } from "../components/banner"
 import { About } from "../components/about"
 import { Team } from "../components/team"
 import { Footer } from "../components/footer"
+import { Whatsapp } from "../components/whatsapp"
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <About />
       <Team />
       <Footer />
+      <Whatsapp />
     </div>
   )
 }
