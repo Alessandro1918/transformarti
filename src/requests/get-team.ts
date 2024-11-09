@@ -2,7 +2,7 @@ export interface TeamItemProps {
   image: string,
   name: string,
   title: string,
-  description?: string
+  description: string
 }
 
 export function getTeam(): TeamItemProps[] {
@@ -10,7 +10,7 @@ export function getTeam(): TeamItemProps[] {
     {
       image: "/assets/team/dra-debora-cesta.png",
       name: "Dra Débora Cesta",
-      title: "Clínica Geral e Ortodontista.",
+      title: "Clínica Geral e Ortodontista",
       description: "Realiza consultas de check up, prevenção, limpeza, restaurações e clareamento. É a responsável da clínica pelos tratamentos ortodônticos de adultos, adolescentes e crianças. Trabalha com aparelhos fixos e Invisalign."
     },
     {
