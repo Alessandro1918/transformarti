@@ -25,7 +25,7 @@ Vi o site de vocês, e gostaria de marcar uma consulta.`
 
       <div className="flex flex-col gap-2 order-3 sm:order-2">
         <p className="text-white text-2xl font-semibold">
-          Contato
+          Endereço
         </p>
 
         <div 
@@ -53,6 +53,10 @@ Vi o site de vocês, e gostaria de marcar uma consulta.`
             Sala 2806
           </p>
         </div>
+
+        <p className="text-white text-2xl font-semibold mt-2">
+          Contato
+        </p>
 
         <a 
           className="flex flex-row items-center gap-2"
@@ -82,7 +86,7 @@ Vi o site de vocês, e gostaria de marcar uma consulta.`
         >
           <FaInstagram className="fill-white size-4"/>
           <p className="text-white font-medium">
-            @TransformArtiOdontologia
+            @transformartiodontologia
           </p>
         </a>
       </div>

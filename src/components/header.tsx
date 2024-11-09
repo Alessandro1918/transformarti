@@ -10,8 +10,8 @@ export function Header() {
       />
 
       <div className="flex flex-1 flex-row justify-center gap-4 max-sm:hidden">
-        <p className="text-2xl text-blue-900">Equipe</p>
         <p className="text-2xl text-blue-900">Tratamentos</p>
+        <p className="text-2xl text-blue-900">Equipe</p>
       </div>
 
       <div className="sm:hidden">
