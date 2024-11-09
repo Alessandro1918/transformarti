@@ -10,7 +10,7 @@ export function Banner() {
       <div className="absolute size-full top-0 right-0 bg-black opacity-25"></div>
 
       <p className="z-10 text-white font-bold text-4xl sm:text-5xl w-3/4 sm:w-1/2 sm:px-8">
-        Equipe de dentista especialistas com foco em excelência e atendimento humanizado
+        Equipe de dentistas especialistas com foco em excelência e atendimento humanizado
       </p>
     </div>
   )

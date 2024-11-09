@@ -2,7 +2,7 @@ export interface TeamItemProps {
   image: string,
   name: string,
   title: string,
-  description: string
+  description?: string
 }
 
 export function getTeam(): TeamItemProps[] {
