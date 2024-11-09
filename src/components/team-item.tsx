@@ -9,12 +9,10 @@ export function TeamItem({ image, name, title, description }: TeamItemProps) {
     const card = document.getElementById(`card-${cardName}`)
     if (card!.classList.contains("isClosed")) {
       card!.classList.remove("isClosed", "h-44")
-      card!.classList.add("h-96", "sm:h-80")
       document.getElementById(`description-${cardName}`)!.classList.remove("line-clamp-2")
       document.getElementById(`icon-${cardName}`)!.classList.add("rotate-180")
       document.getElementById(`label-${cardName}`)!.innerHTML = "Menos"
     } else {
-      card!.classList.remove("h-96", "sm:h-80")
       card!.classList.add("isClosed", "h-44")
       document.getElementById(`description-${cardName}`)!.classList.add("line-clamp-2")
       document.getElementById(`icon-${cardName}`)!.classList.remove("rotate-180")
@@ -35,7 +33,7 @@ export function TeamItem({ image, name, title, description }: TeamItemProps) {
 
       <div 
         id={`card-${name}`} //Not actually the entire "card", but the bottom half of it
-        className="mt-9 px-3 h-44 isClosed"
+        className="mt-9 px-3 h-44 pb-8 isClosed"
       >
         <p className="mt-4 text-xl font-bold">{name}</p>
         <p className="mt-0 text-sm text-gray-500">{title}</p>
