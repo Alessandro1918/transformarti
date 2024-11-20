@@ -22,7 +22,7 @@ export function TeamItem({ image, name, title, description }: TeamItemProps) {
 
   return (
     <div className="flex flex-col justify-center items-center w-48 sm:w-56 shadow-xl rounded-xl relative">
-      <div className="h-32 sm:h-44 py-3 px-3 bg-sky-800 rounded-t-xl">
+      <div className="h-32 sm:h-44 py-3 px-3 bg-blue-dark rounded-t-xl">
         <img 
           src={image}
           className=""

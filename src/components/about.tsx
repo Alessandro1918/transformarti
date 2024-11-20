@@ -9,7 +9,7 @@ export function About() {
     <div className="px-4 py-8">
 
       <div>
-        <p className="text-3xl font-bold text-blue-600">
+        <p className="text-3xl font-bold text-blue-dark">
           Conheça a
         </p>
         <img 
