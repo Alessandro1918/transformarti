@@ -46,10 +46,18 @@ export function TeamItem({ image, name, title, description }: TeamItemProps) {
 
         <div 
           onClick={() => handleClick(name)}
-          className="flex flex-row items-center justify-end absolute bottom-0 w-full px-4 py-2 gap-1"
+          className="flex flex-row items-center absolute bottom-0 right-0 px-4 py-2 gap-1 cursor-pointer"
         >
-          <FaAngleDown id={`icon-${name}`} className="size-6 fill-gray-500"/>
-          <p id={`label-${name}`} className="text-right">Mais</p>
+          <FaAngleDown 
+            id={`icon-${name}`} 
+            className="size-6 fill-gray-500"
+          />
+          <p 
+            id={`label-${name}`} 
+            className="text-right"
+          >
+            Mais
+          </p>
         </div>
       </div>
     </div>
