@@ -1,9 +1,15 @@
 export function Banner() {
+  // Background V1: "bg-cover bg-center": static image, does not not have any hidden top/bottom overflow.
+  // Background V2: "bg-attachment: fixed" locks the image position to the browser's viewport
+  // (and since this position is related to the screen, I have to change "bg-center" depending on the device to keep it responsive).
   return (
     <div className={`
-      relative 
-      w-full h-96 flex items-center justify-center sm:justify-start
-      bg-cover bg-center bg-[url('/assets/banner.jpg')]
+      bg-[url('/assets/banner.jpg')]
+      w-full h-96 
+      bg-fixed
+      bg-auto bg-top
+      sm:bg-cover sm:bg-bottom  
+      relative flex items-center justify-center sm:justify-start
     `}>
 
       {/* opacity: */}
