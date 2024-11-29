@@ -46,12 +46,12 @@ export function ImageSlider(props: { images: any[] }) {
     return (
       <button 
         // className={props.className}
-        className="absolute z-10 left-0 top-1/2 -translate-y-6 flex items-center justify-center size-12 rounded-full bg-blue-300 hover:bg-blue-200"
+        className="absolute z-10 left-0 top-1/2 -translate-y-6 flex items-center justify-center size-12 rounded-full bg-blue-medium opacity-100 hover:opacity-90"
         // style={props.style}
         onClick={props.onClick}
       >
         <FaAngleLeft 
-          className="fill-blue-600 size-8"
+          className="fill-blue-dark size-8"
         />
       </button>
     )
@@ -62,12 +62,12 @@ export function ImageSlider(props: { images: any[] }) {
     return (
       <button 
         // className={props.className}
-        className="absolute z-10 right-1 top-1/2 -translate-y-6 flex items-center justify-center size-12 rounded-full bg-blue-300 hover:bg-blue-200"
+        className="absolute z-10 right-1 top-1/2 -translate-y-6 flex items-center justify-center size-12 rounded-full bg-blue-medium opacity-100 hover:opacity-90"
         // style={props.style}
         onClick={props.onClick}
       >
         <FaAngleRight 
-          className="fill-blue-600 size-4/5"
+          className="fill-blue-dark size-4/5"
         />
       </button>
     )

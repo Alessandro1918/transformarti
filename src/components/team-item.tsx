@@ -9,12 +9,10 @@ export function TeamItem({ image, name, title, description }: TeamItemProps) {
     const card = document.getElementById(`card-${cardName}`)
     if (card!.classList.contains("isClosed")) {
       card!.classList.remove("isClosed", "h-44")
-      card!.classList.add("h-96", "sm:h-80")
       document.getElementById(`description-${cardName}`)!.classList.remove("line-clamp-2")
       document.getElementById(`icon-${cardName}`)!.classList.add("rotate-180")
       document.getElementById(`label-${cardName}`)!.innerHTML = "Menos"
     } else {
-      card!.classList.remove("h-96", "sm:h-80")
       card!.classList.add("isClosed", "h-44")
       document.getElementById(`description-${cardName}`)!.classList.add("line-clamp-2")
       document.getElementById(`icon-${cardName}`)!.classList.remove("rotate-180")
@@ -24,7 +22,7 @@ export function TeamItem({ image, name, title, description }: TeamItemProps) {
 
   return (
     <div className="flex flex-col justify-center items-center w-48 sm:w-56 shadow-xl rounded-xl relative">
-      <div className="h-32 sm:h-44 py-3 px-3 bg-sky-800 rounded-t-xl">
+      <div className="h-32 sm:h-44 py-3 px-3 bg-blue-dark rounded-t-xl">
         <img 
           src={image}
           className=""
@@ -35,7 +33,7 @@ export function TeamItem({ image, name, title, description }: TeamItemProps) {
 
       <div 
         id={`card-${name}`} //Not actually the entire "card", but the bottom half of it
-        className="mt-9 px-3 h-44 isClosed"
+        className="mt-9 px-3 h-44 pb-8 isClosed"
       >
         <p className="mt-4 text-xl font-bold">{name}</p>
         <p className="mt-0 text-sm text-gray-500">{title}</p>
@@ -48,10 +46,18 @@ export function TeamItem({ image, name, title, description }: TeamItemProps) {
 
         <div 
           onClick={() => handleClick(name)}
-          className="flex flex-row items-center justify-end absolute bottom-0 w-full px-4 py-2 gap-1"
+          className="flex flex-row items-center absolute bottom-0 right-0 px-4 py-2 gap-1 cursor-pointer"
         >
-          <FaAngleDown id={`icon-${name}`} className="size-6 fill-gray-500"/>
-          <p id={`label-${name}`} className="text-right">Mais</p>
+          <FaAngleDown 
+            id={`icon-${name}`} 
+            className="size-6 fill-gray-500"
+          />
+          <p 
+            id={`label-${name}`} 
+            className="text-right"
+          >
+            Mais
+          </p>
         </div>
       </div>
     </div>

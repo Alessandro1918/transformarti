@@ -7,10 +7,10 @@ export function Team() {
 
   return (
     <div className="flex flex-col">
-      <p className="mt-12 px-8 text-8xl font-bold text-blue-700 opacity-10">
+      <p className="mt-12 px-8 text-8xl font-bold text-blue-dark opacity-10">
         EQUIPE
       </p>
-      <p className="-mt-6 px-8 text-2xl font-bold text-blue-700">
+      <p className="-mt-6 px-8 text-2xl font-bold text-blue-dark">
         Conheça nosso time
       </p>
 
