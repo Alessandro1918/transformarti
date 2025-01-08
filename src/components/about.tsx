@@ -9,14 +9,12 @@ export function About() {
     <div className="px-4 py-8">
 
       <div>
-        <p className="text-3xl font-bold text-blue-dark">
-          Conheça a
+        <p className="mt-12 px-8 text-8xl font-bold text-blue-dark opacity-20">
+          Conheça
         </p>
-        <img 
-          src="/assets/logo.png"
-          // className="w-80 sm:w-96"
-          className="h-24"
-        />
+        <p className="-mt-6 px-8 text-5xl font-bold text-blue-dark">
+          a clínica
+        </p>
       </div>
 
       <p className="whitespace-pre-line text-justify sm:text-center">
