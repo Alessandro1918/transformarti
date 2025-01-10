@@ -6,7 +6,7 @@ export function About() {
   const clinic = getClinic()
 
   return (
-    <div className="px-4 py-8">
+    <div>
 
       <div>
         <p className="mt-12 px-8 text-8xl font-bold text-blue-dark opacity-20">
@@ -17,7 +17,7 @@ export function About() {
         </p>
       </div>
 
-      <p className="whitespace-pre-line text-justify sm:text-center">
+      <p className="px-4 whitespace-pre-line text-justify sm:text-center">
         {`
 Fundada em 2018 pela dra Débora Cesta a clínica conta com excelente localização, em uma das principais avenidas da zona sul de São Paulo, próxima à estação de trem Morumbi. 
 Na clínica Transformarti Odontologia somos um time de especialistas dispostos a manter seu sorriso saudável e ainda mais bonito!

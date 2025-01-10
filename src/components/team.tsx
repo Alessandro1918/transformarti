@@ -6,13 +6,16 @@ export function Team() {
   const team = getTeam()
 
   return (
-    <div className="flex flex-col">
-      <p className="mt-12 px-8 text-8xl font-bold text-blue-dark opacity-20">
-        EQUIPE
-      </p>
-      <p className="-mt-6 px-8 text-5xl font-bold text-blue-dark">
-        Conheça nosso time
-      </p>
+    <div>
+
+      <div>
+        <p className="mt-12 px-8 text-8xl font-bold text-blue-dark opacity-20">
+          Equipe
+        </p>
+        <p className="-mt-6 px-8 text-5xl font-bold text-blue-dark">
+          Conheça nosso time
+        </p>
+      </div>
 
       <div className="mx-auto mt-12">
         <div className="flex flex-wrap gap-5 sm:gap-4 justify-center items-start">
