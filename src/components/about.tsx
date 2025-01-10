@@ -6,13 +6,13 @@ export function About() {
   const clinic = getClinic()
 
   return (
-    <div>
+    <div id="about">
 
       <div>
-        <p className="mt-12 px-8 text-8xl font-bold text-blue-dark opacity-20">
+        <p className="mt-12 px-4 text-8xl font-bold text-blue-dark opacity-20">
           Conheça
         </p>
-        <p className="-mt-6 px-8 text-5xl font-bold text-blue-dark">
+        <p className="-mt-6 px-4 text-5xl font-bold text-blue-dark">
           a clínica
         </p>
       </div>

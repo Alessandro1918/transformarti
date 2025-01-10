@@ -6,13 +6,13 @@ export function Team() {
   const team = getTeam()
 
   return (
-    <div>
+    <div id="team">
 
       <div>
-        <p className="mt-12 px-8 text-8xl font-bold text-blue-dark opacity-20">
+        <p className="mt-12 px-4 text-8xl font-bold text-blue-dark opacity-20">
           Equipe
         </p>
-        <p className="-mt-6 px-8 text-5xl font-bold text-blue-dark">
+        <p className="-mt-6 px-4 text-5xl font-bold text-blue-dark">
           Conheça nosso time
         </p>
       </div>

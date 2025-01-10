@@ -6,13 +6,16 @@ export function Procedures() {
   const procedures = getProcedures()
 
   return (
-    <div className="bg-blue-light pb-8">
+    <div 
+      id="procedures"
+      className="bg-blue-light pb-8"
+    >
 
       <div>
-        <p className="pt-8 mt-12 px-8 text-7xl font-bold text-blue-dark opacity-20">
+        <p className="pt-8 mt-12 px-4 text-7xl font-bold text-blue-dark opacity-20">
           Tratamentos
         </p>
-        <p className="-mt-6 px-8 text-4xl font-bold text-blue-dark">
+        <p className="-mt-6 px-4 text-4xl font-bold text-blue-dark">
           Nossos Tratamentos
         </p>
       </div>
