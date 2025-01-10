@@ -1,6 +1,12 @@
 "use client"
-import { TeamItemProps } from "../requests/get-team"
 import { FaAngleDown } from "react-icons/fa"
+
+type TeamItemProps = {
+  image: string,
+  name: string,
+  title: string,
+  description: string
+}
 
 export function TeamItem({ image, name, title, description }: TeamItemProps) {
 

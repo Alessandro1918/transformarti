@@ -1,9 +1,11 @@
-export interface ClinicItemProps {
-  image: string,
-  description: string
-}
+// type ClinicItemProps = {
+//   image: string,
+//   description: string
+// }
 
-export function getClinic(): ClinicItemProps[] {
+// export function getClinic(): ClinicItemProps[] {
+export function getClinic() {
+
   return [
     {
       image: "/assets/clinic/clinic6.jpg",
