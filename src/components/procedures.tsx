@@ -17,19 +17,21 @@ export function Procedures() {
         </p>
       </div>
 
-      <div className="mt-8 grid grid-cols-2 sm:grid-cols-4 gap-6 place-items-center">
-        {
-          procedures.map((e, i) => {
-            return (
-              <ProcedureItem 
-                key={i}
-                image={e.image}
-                title={e.title}
-                description={e.description}
-              />
-            )
-          })
-        }
+      <div className="mt-12 flex justify-center">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-5 sm:gap-4 place-items-center">
+          {
+            procedures.map((e, i) => {
+              return (
+                <ProcedureItem 
+                  key={i}
+                  image={e.image}
+                  title={e.title}
+                  description={e.description}
+                />
+              )
+            })
+          }
+        </div>
       </div>
     </div>
   )

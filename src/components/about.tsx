@@ -19,7 +19,7 @@ export function About() {
 
       <p className="px-4 whitespace-pre-line text-justify sm:text-center">
         {`
-Fundada em 2018 pela dra Débora Cesta a clínica conta com excelente localização, em uma das principais avenidas da zona sul de São Paulo, próxima à estação de trem Morumbi. 
+Fundada em 2018 pela dra. Débora Cesta, a clínica conta com excelente localização, em uma das principais avenidas da zona sul de São Paulo, próxima à estação de trem Morumbi. 
 Na clínica Transformarti Odontologia somos um time de especialistas dispostos a manter seu sorriso saudável e ainda mais bonito!
 Nosso espaço foi elaborado para ser acolhedor e garantir que a sua experiência seja o mais agradável possível.
 Aqui cada paciente é único, por isso oferecemos atendimento humanizado e tratamentos personalizados de acordo a necessidade individual de cada um.
