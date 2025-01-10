@@ -1,11 +1,4 @@
-export interface TeamItemProps {
-  image: string,
-  name: string,
-  title: string,
-  description: string
-}
-
-export function getTeam(): TeamItemProps[] {
+export function getTeam() {
   return [
     {
       image: "/assets/team/dra-debora-cesta.png",

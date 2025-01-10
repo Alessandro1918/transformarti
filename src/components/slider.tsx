@@ -76,7 +76,7 @@ export function ImageSlider(props: { images: any[] }) {
   return (
     <Slider 
       {...settings}
-      className="mt-4 w-full"
+      className="mt-4 px-4 w-full"
     >
       {
         props.images.map((e: any, i) => {
