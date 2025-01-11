@@ -9,16 +9,16 @@ export function Team() {
     <div id="team">
 
       <div>
-        <p className="mt-12 px-4 text-8xl font-bold text-blue-dark opacity-20">
+        <p className="mt-12 px-4 text-6xl font-bold text-blue-dark opacity-20">
           Equipe
         </p>
-        <p className="-mt-6 px-4 text-5xl font-bold text-blue-dark">
+        <p className="-mt-6 px-8 text-4xl font-bold text-blue-dark">
           Conheça nosso time
         </p>
       </div>
 
-      <div className="mx-auto mt-12">
-        <div className="flex flex-wrap gap-5 sm:gap-4 justify-center items-start">
+      <div className="mx-auto mt-8">
+        <div className="flex flex-wrap gap-4 sm:gap-6 justify-center items-start">
           {
             team.map(( e, i ) => {
               return (

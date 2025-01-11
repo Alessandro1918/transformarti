@@ -9,10 +9,10 @@ export function About() {
     <div id="about">
 
       <div>
-        <p className="mt-12 px-4 text-8xl font-bold text-blue-dark opacity-20">
+        <p className="mt-12 px-4 text-6xl font-bold text-blue-dark opacity-20">
           Conheça
         </p>
-        <p className="-mt-6 px-4 text-5xl font-bold text-blue-dark">
+        <p className="-mt-6 px-12 text-4xl font-bold text-blue-dark">
           a clínica
         </p>
       </div>
