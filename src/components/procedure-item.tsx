@@ -29,7 +29,7 @@ export function ProcedureItem({image, title, description}: ProcedureItemProps) {
   }
 
   return (
-    <div className="flex flex-col justify-center items-center w-48 sm:w-56 shadow-xl rounded-xl relative bg-white">
+    <div className="flex flex-col justify-center items-center w-40 mobile_md:w-44 sm:w-56 shadow-xl rounded-xl relative bg-white">
       <img 
         src={image}
         className="w-full aspect-video rounded-t-lg"

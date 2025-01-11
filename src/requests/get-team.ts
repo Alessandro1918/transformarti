@@ -39,7 +39,7 @@ export function getTeam() {
     {
       image: "/assets/team/dra-amanda-suhett.png",
       name: "Dra. Amanda Suhett",
-      title: "HOF - Harmonização Orofacial",
+      title: "Harmonização Orofacial",
       description: "Através da atendimento humanizado, realiza procedimentos estéticos a fim de manter a aparência jovial e exaltar a beleza dos pacientes. Aplica toxina botulínica, preenchimento e bioestimuladores de colágeno."
     },
   ]
