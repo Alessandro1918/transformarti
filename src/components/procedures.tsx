@@ -21,7 +21,7 @@ export function Procedures() {
       </div>
 
       <div className="mt-8 flex justify-center">
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6 place-items-center">
+        <div className="flex flex-wrap gap-4 sm:gap-6 justify-center items-start">
           {
             procedures.map((e, i) => {
               return (

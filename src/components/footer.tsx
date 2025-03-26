@@ -47,7 +47,7 @@ Vi o site de vocês, e gostaria de marcar uma consulta.`
           >
             <FaMapPin className="fill-blue-dark size-4"/>
             <p className="text-blue-dark font-medium">
-              Cond. Pq da Cidade, Torre Tarumã
+              Cond. Parque da Cidade, Torre Tarumã
             </p>
           </div>
           
