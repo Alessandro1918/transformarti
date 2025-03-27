@@ -51,7 +51,7 @@ export function ImageSlider(props: { images: any[] }) {
         onClick={props.onClick}
       >
         <FaAngleLeft 
-          className="fill-blue-dark size-4-5"
+          className="fill-blue-dark size-4/5"
         />
       </button>
     )
