@@ -2,13 +2,13 @@ export function getTeam() {
   return [
     {
       image: "/assets/team/dra-debora-cesta.jpg",
-      name: "Dra Débora Cesta",
+      name: "Dra. Débora Cesta",
       title: "Clínica Geral e Ortodontista",
       description: "Realiza consultas de check up, prevenção, limpeza, restaurações e clareamento. É a responsável da clínica pelos tratamentos ortodônticos de adultos, adolescentes e crianças. Trabalha com aparelhos fixos e Invisalign."
     },
     {
       image: "/assets/team/dr-fabio-tonasso.jpg",
-      name: "Dr. Fabio Tonasso",
+      name: "Dr. Fábio Tonasso",
       title: "Bucomaxilofacial",
       description: "Nosso especialista em cirurgia realiza extrações de sisos em consultório e em hospital. Faz implantes unitários e próteses sobre implantes. Atende também pacientes com DTM (dor nas ATMs - articulações temporomandibulares)."
     },

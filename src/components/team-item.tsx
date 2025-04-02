@@ -43,7 +43,7 @@ export function TeamItem({ image, name, title, description }: TeamItemProps) {
       {/* Bottom half of card. Hardcoded heigth when closed (72 = 18rem), omitted to be adaptable to content when opened */}
       <div 
         id={`card-${name}`}
-        className="mt-12 px-3 h-72 pb-8 isClosed"
+        className="mt-12 px-4 h-72 pb-8 isClosed"
       >
         <p className="mt-20 text-xl font-bold">{name}</p>
         <p className="mt-0 text-sm text-gray-500">{title}</p>
