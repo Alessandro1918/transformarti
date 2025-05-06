@@ -16,25 +16,25 @@ export function getTeam() {
       image: "/assets/team/dra-renata-gomes.jpg",
       name: "Dra. Renata Gomes",
       title: "Endodontista",
-      description: "Nossa especialista em tratamento de canal atua no diagnóstico e tratamento das lesões de cárie e trauma que atingem a polpa dos dentes. Utiliza equipamentos modernos como radiografia digital, para garantir a eficácia e o conforto dos pacientes."
+      description: "Nossa especialista em tratamento de canal atua no diagnóstico e tratamento das lesões de cárie e trauma dental que afetam a polpa dos dentes. Utiliza tecnologias avançadas, como instrumentos endodônticos mecanizados, laser terapia e radiografia digital, para oferecer maior precisão, conforto e segurança nos tratamentos."
     },
     {
       image: "/assets/team/dra-ailla-andrade.jpg",
       name: "Dra. Ailla Andrade",
       title: "Clínica Geral",
-      description: "Atua como clínica geral fazendo tratamentos preventivos para cárie e periodontite. Realiza tratamentos estéticos em resina e clareamento dental."
+      description: "Atua como clínica geral fazendo tratamentos preventivos para cárie e doenças das gengivas. Realiza tratamentos estéticos em resina, clareamento dental, e placa de bruxismo."
     },
     {
       image: "/assets/team/dra-renata-bommarito.jpg",
       name: "Dra. Renata Bommarito",
       title: "Protesista",
-      description: "Nossa especialista em prótese é professora universitária, mestre, especialista em próteses e também implantes. Atua conosco nos casos de reabilitação, fazendo próteses, coroas, onlays, facetas de porcelana e resina, além de implantes."
+      description: "Nossa especialista em prótese é professora universitária, mestre, especialista em próteses e implantes. Atua conosco nos casos de reabilitação, fazendo próteses, coroas, onlays, facetas de porcelana e resina, além de implantes."
     },
     {
       image: "/assets/team/dr-thomaz-moura.jpg",
       name: "Dr. Thomaz Moura",
       title: "Periodontista",
-      description: "O nosso responsável pelos tratamentos das gengivas e doença periodontal. Realiza raspagem subgengival, gengivoplastia, enxerto de tecido conjuntivo."
+      description: "O nosso responsável pelos tratamentos das gengivas e doença periodontal. Realiza raspagem subgengival e cirurgias periodontais (gengivoplastia, aumento de coroa clínica, enxerto de tecido conjuntivo)."
     },
     // {
     //   image: "/assets/team/dra-amanda-suhett.png",
