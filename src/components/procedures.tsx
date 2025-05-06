@@ -12,10 +12,10 @@ export function Procedures() {
     >
 
       <div>
-        <p className="pt-8 mt-12 px-4 text-5xl font-bold text-blue-dark opacity-20">
+        <p className="pt-8 mt-12 px-4 text-5xl font-bold font-montserrat text-blue-dark opacity-20">
           Tratamentos
         </p>
-        <p className="-mt-4 px-12 text-3xl font-bold text-blue-dark">
+        <p className="-mt-4 px-12 text-3xl font-bold font-montserrat text-blue-dark">
           Nossas Especialidades
         </p>
       </div>

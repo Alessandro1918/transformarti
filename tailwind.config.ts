@@ -8,6 +8,9 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      body: ["var(--font-lato)"], //overwrites tailwind default font-body (applied globally @ layout.tsx file)
+    },
     extend: {
       screens: {
         // "mobile_sm": "360px",
@@ -22,6 +25,11 @@ const config: Config = {
           dark: colors.sky[800],
         }
       },
+      fontFamily: {
+        nunito_sans: "var(--font-nunito_sans)", //banner
+        montserrat: "var(--font-montserrat)",   //titles
+        // lato: "var(--font-lato)",            //body
+      }
     },
   },
   plugins: [],
