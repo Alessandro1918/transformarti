@@ -3,7 +3,7 @@ export function getProcedures() {
     {
       image: "/assets/procedures/restauracao.jpg",
       title: "Restaurações",
-      description: "As restaurações, também conhecidas como obturações, são procedimentos que reparam os dentes danificados por cáries ou fraturas. Também realizamos restaurações estéticas para corrigir pequenos dentes quebrados ou fechamento de diastemas. Utilizamos materiais de alta qualidade para devolver a função e a estética do seu sorriso."
+      description: "As restaurações, também conhecidas como obturações, são procedimentos que reparam os dentes danificados por cáries ou fraturas. Também realizamos restaurações estéticas para corrigir pequenos dentes quebrados ou espaçados. Utilizamos materiais de alta qualidade para devolver a função e a estética do seu sorriso."
     },
     {
       image: "/assets/procedures/ortodontia.jpg",
