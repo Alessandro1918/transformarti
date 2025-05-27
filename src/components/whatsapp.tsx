@@ -13,7 +13,7 @@ Vi o site de vocês, e gostaria de marcar uma consulta.`
       href={whatsappUrl}
       className="bottom-16 right-4 fixed size-16 sm:size-20 rounded-full flex items-center justify-center bg-green-500"
     >
-      <FaWhatsapp className="fill-white size-10 sm:size-14 pl-1"/>
+      <FaWhatsapp className="fill-white size-10 sm:size-14"/>
     </a>
   )
 }

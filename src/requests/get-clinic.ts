@@ -8,28 +8,20 @@ export function getClinic() {
 
   return [
     {
-      image: "/assets/clinic/clinic6.jpg",
-      description: "Foto 1"
+      image: "/assets/clinic/reception_1.jpg",
+      description: "Recepção (1)"
     },
     {
-      image: "/assets/clinic/clinic8.jpg",
-      description: "Foto 2"
+      image: "/assets/clinic/reception_2.jpg",
+      description: "Recepção (2)"
     },
     {
-      image: "/assets/clinic/clinic10.jpg",
-      description: "Foto 3"
+      image: "/assets/clinic/room1.jpg",
+      description: "Sala #1"
     },
     {
-      image: "/assets/clinic/clinic6.jpg",
-      description: "Foto 4"
-    },
-    {
-      image: "/assets/clinic/clinic8.jpg",
-      description: "Foto 5"
-    },
-    {
-      image: "/assets/clinic/clinic10.jpg",
-      description: "Foto 6"
+      image: "/assets/clinic/room2.jpg",
+      description: "Sala #2"
     },
   ]
 }
