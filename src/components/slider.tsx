@@ -15,7 +15,7 @@ export function ImageSlider(props: { images: any[] }) {
     slidesToShow: 3,
     slidesToScroll: 1,
     centerMode: true,
-    initialSlide: window && window.innerWidth < 640 ? 0 : 1,
+    // initialSlide: window && window.innerWidth < 640 ? 0 : 1,
     responsive: [
       {
         breakpoint: 1024,

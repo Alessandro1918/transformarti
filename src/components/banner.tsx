@@ -4,7 +4,7 @@ export function Banner() {
   // (and since this position is related to the screen, I have to change the Y axys position depending on the device to keep it responsive).
   return (
     <div className={`
-      bg-[url('/assets/banner2.jpg')]
+      bg-[url('/assets/banner.jpg')]
       w-full h-96 
       bg-fixed
       bg-cover bg-top
