@@ -36,11 +36,11 @@ export function getTeam() {
       title: "Periodontista",
       description: "O nosso responsável pelos tratamentos das gengivas e doença periodontal. Realiza raspagem subgengival e cirurgias periodontais (gengivoplastia, aumento de coroa clínica, enxerto de tecido conjuntivo)."
     },
-    // {
-    //   image: "/assets/team/dra-amanda-suhett.png",
-    //   name: "Dra. Amanda Suhett",
-    //   title: "Harmonização Orofacial",
-    //   description: "Através da atendimento humanizado, realiza procedimentos estéticos a fim de manter a aparência jovial e exaltar a beleza dos pacientes. Aplica toxina botulínica, preenchimento e bioestimuladores de colágeno."
-    // },
+    {
+      image: "/assets/team/dra-amanda-suhett.jpg",
+      name: "Dra. Amanda Suhett",
+      title: "Harmonização Orofacial",
+      description: "Através da atendimento humanizado, realiza procedimentos estéticos a fim de manter a aparência jovial e exaltar a beleza dos pacientes. Aplica toxina botulínica, preenchimento e bioestimuladores de colágeno."
+    },
   ]
 }
