@@ -1,5 +1,6 @@
 // import localFont from "next/font/local"
 import { Nunito_Sans, Montserrat, Lato } from "next/font/google"
+import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 
 // const geistSans = localFont({
@@ -40,6 +41,7 @@ export default function RootLayout({
         className={`antialiased font-body ${nunito_sans.variable} ${montserrat.variable} ${lato.variable}`}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   )
