@@ -7,6 +7,8 @@ export function Header() {
     <div className="flex w-full h-32 items-center justify-center px-4 bg-blue-light">
       <img 
         src="/assets/logo.png"
+        alt="transformarti logo"
+        title="Transformarti Odontologia"
         // className="w-80 sm:w-96"
         className="h-24"
       />

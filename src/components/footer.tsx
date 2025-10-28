@@ -24,6 +24,8 @@ Vi o site de vocês, e gostaria de marcar uma consulta.`
         {/* 1.1: Logo */}
         <img 
           src="/assets/logo.png"
+          alt="transformarti logo"
+          title="Transformarti Odontologia"
           className="m-auto w-80 rounded-xl"
           // className="m-auto h-24 sm:h-48 bg-white"
         />
