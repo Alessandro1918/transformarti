@@ -7,6 +7,7 @@ export function About() {
 
   return (
     <div id="about">
+      <h2 hidden>A Clínica</h2>
 
       <div>
         <p className="mt-12 px-4 text-6xl font-bold text-blue-dark opacity-20">

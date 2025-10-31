@@ -1,5 +1,4 @@
-import type { Metadata } from "next"
-import type { Viewport } from 'next'
+import type { Metadata, Viewport } from "next"
 import { Header } from "../components/header"
 import { Banner } from "../components/banner"
 import { About } from "../components/about"
@@ -7,8 +6,6 @@ import { Procedures } from "../components/procedures"
 import { Team } from "../components/team"
 import { Footer } from "../components/footer"
 import { Whatsapp } from "../components/whatsapp"
-
-//Test Metadata @ localhost: https://serveo.net
 
 //Metadata images (favicon, icon, apple-icon) could be generated or path described. Instead, I just added the image files to the root of the "/app" folder.
 //https://nextjs.org/docs/app/api-reference/functions/generate-metadata

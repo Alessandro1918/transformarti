@@ -5,6 +5,8 @@ import { Link } from "react-scroll" //"to" prop: anchor; "href" prop: SEO track
 export function Header() {
   return (
     <div className="flex w-full h-32 items-center justify-center px-4 bg-blue-light">
+      <h1 hidden>Transformarti Odontologia</h1>
+
       <img 
         src="/assets/logo.png"
         alt="transformarti logo"

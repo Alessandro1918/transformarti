@@ -38,11 +38,11 @@ Vi o site de vocês, e gostaria de marcar uma consulta.`
           <Map />
         </div>
 
-        {/* 1.3 Geo Data */}
+        {/* 1.3 Address / Contact Data */}
         <div className="flex flex-col gap-2 order-3 sm:order-2">
-          <p className="text-blue-dark text-2xl font-semibold">
+          <h2 className="text-blue-dark text-2xl font-semibold">
             Endereço
-          </p>
+          </h2>
 
           <div 
             className="flex flex-row items-center gap-2"
@@ -70,9 +70,9 @@ Vi o site de vocês, e gostaria de marcar uma consulta.`
             </p>
           </div>
 
-          <p className="text-blue-dark text-2xl font-semibold mt-2">
+          <h2 className="text-blue-dark text-2xl font-semibold mt-2">
             Contato
-          </p>
+          </h2>
 
           <a 
             className="flex flex-row items-center gap-2"

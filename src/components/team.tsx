@@ -7,6 +7,7 @@ export function Team() {
 
   return (
     <div id="team">
+      <h2 hidden>Equipe</h2>
 
       <div>
         <p className="mt-12 px-4 text-6xl font-bold font-montserrat text-blue-dark opacity-20">
