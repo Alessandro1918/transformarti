@@ -10,6 +10,7 @@ export function Procedures() {
       id="procedures"
       className="bg-blue-light pb-8"
     >
+      <h2 hidden>Tratamentos</h2>
 
       <div>
         <p className="pt-8 mt-12 px-4 text-5xl font-bold font-montserrat text-blue-dark opacity-20">

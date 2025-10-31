@@ -24,6 +24,8 @@ Vi o site de vocês, e gostaria de marcar uma consulta.`
         {/* 1.1: Logo */}
         <img 
           src="/assets/logo.png"
+          alt="transformarti logo"
+          title="Transformarti Odontologia"
           className="m-auto w-80 rounded-xl"
           // className="m-auto h-24 sm:h-48 bg-white"
         />
@@ -36,11 +38,11 @@ Vi o site de vocês, e gostaria de marcar uma consulta.`
           <Map />
         </div>
 
-        {/* 1.3 Geo Data */}
+        {/* 1.3 Address / Contact Data */}
         <div className="flex flex-col gap-2 order-3 sm:order-2">
-          <p className="text-blue-dark text-2xl font-semibold">
+          <h2 className="text-blue-dark text-2xl font-semibold">
             Endereço
-          </p>
+          </h2>
 
           <div 
             className="flex flex-row items-center gap-2"
@@ -54,6 +56,7 @@ Vi o site de vocês, e gostaria de marcar uma consulta.`
           <a 
             className="flex flex-row items-center gap-2"
             href="https://ul.waze.com/ul?place=ChIJf5TU9aBRzpQRrTc6nA9ET2M&ll=-23.62464400%2C-46.70242080&navigate=yes"
+            aria-label="waze button"
           >
             <FaWaze className="fill-blue-dark size-4"/>
             <p className="text-blue-dark font-medium">
@@ -68,17 +71,17 @@ Vi o site de vocês, e gostaria de marcar uma consulta.`
             </p>
           </div>
 
-          <p className="text-blue-dark text-2xl font-semibold mt-2">
+          <h2 className="text-blue-dark text-2xl font-semibold mt-2">
             Contato
-          </p>
+          </h2>
 
           <a 
             className="flex flex-row items-center gap-2"
             href={`tel:${whatsappPhone}`}
+            aria-label="telephone button"
           >
             <FaPhoneAlt className="fill-blue-dark size-4"/>
             <p className="text-blue-dark font-medium">
-              {/* whatsappPhone, formated: */}
               (11) 96574-5577
             </p>
           </a>
@@ -86,10 +89,10 @@ Vi o site de vocês, e gostaria de marcar uma consulta.`
           <a 
             className="flex flex-row items-center gap-2"
             href={whatsappUrl}
+            aria-label="whatsapp button"
           >
             <FaWhatsapp className="fill-blue-dark size-4"/>
             <p className="text-blue-dark font-medium">
-              {/* whatsappPhone, formated: */}
               (11) 96574-5577
             </p>
           </a>
@@ -97,6 +100,7 @@ Vi o site de vocês, e gostaria de marcar uma consulta.`
           <a 
             className="flex flex-row items-center gap-2"
             href="https://www.instagram.com/transformartiodontologia/"
+            aria-label="instagram button"
           >
             <FaInstagram className="fill-blue-dark size-4"/>
             <p className="text-blue-dark font-medium">
@@ -114,6 +118,7 @@ Vi o site de vocês, e gostaria de marcar uma consulta.`
         <a 
           className="text-xs font-semibold text-blue-dark"
           href="https://www.linkedin.com/in/alessandro-bentivegna-cesta-0058a785/"
+          aria-label="author linkedin button"
         >
           Alessandro B. Cesta
         </a>

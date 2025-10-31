@@ -36,7 +36,7 @@ export function TeamItem({ image, name, title, description }: TeamItemProps) {
           src={image}
           className="w-full aspect-auto py-3 px-3"
           alt={`Membro da equipe: ${name}`}
-          title={`Membro da equipe: ${name}`}
+          title={`${name}`}
         />
       </div>
 
