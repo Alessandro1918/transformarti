@@ -56,6 +56,7 @@ Vi o site de vocês, e gostaria de marcar uma consulta.`
           <a 
             className="flex flex-row items-center gap-2"
             href="https://ul.waze.com/ul?place=ChIJf5TU9aBRzpQRrTc6nA9ET2M&ll=-23.62464400%2C-46.70242080&navigate=yes"
+            aria-label="waze button"
           >
             <FaWaze className="fill-blue-dark size-4"/>
             <p className="text-blue-dark font-medium">
@@ -77,10 +78,10 @@ Vi o site de vocês, e gostaria de marcar uma consulta.`
           <a 
             className="flex flex-row items-center gap-2"
             href={`tel:${whatsappPhone}`}
+            aria-label="telephone button"
           >
             <FaPhoneAlt className="fill-blue-dark size-4"/>
             <p className="text-blue-dark font-medium">
-              {/* whatsappPhone, formated: */}
               (11) 96574-5577
             </p>
           </a>
@@ -88,10 +89,10 @@ Vi o site de vocês, e gostaria de marcar uma consulta.`
           <a 
             className="flex flex-row items-center gap-2"
             href={whatsappUrl}
+            aria-label="whatsapp button"
           >
             <FaWhatsapp className="fill-blue-dark size-4"/>
             <p className="text-blue-dark font-medium">
-              {/* whatsappPhone, formated: */}
               (11) 96574-5577
             </p>
           </a>
@@ -99,6 +100,7 @@ Vi o site de vocês, e gostaria de marcar uma consulta.`
           <a 
             className="flex flex-row items-center gap-2"
             href="https://www.instagram.com/transformartiodontologia/"
+            aria-label="instagram button"
           >
             <FaInstagram className="fill-blue-dark size-4"/>
             <p className="text-blue-dark font-medium">
@@ -116,6 +118,7 @@ Vi o site de vocês, e gostaria de marcar uma consulta.`
         <a 
           className="text-xs font-semibold text-blue-dark"
           href="https://www.linkedin.com/in/alessandro-bentivegna-cesta-0058a785/"
+          aria-label="author linkedin button"
         >
           Alessandro B. Cesta
         </a>

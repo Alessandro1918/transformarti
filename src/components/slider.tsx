@@ -53,6 +53,7 @@ export function ImageSlider(props: { images: any[] }) {
         className="absolute z-10 left-0 top-1/2 -translate-y-6 flex items-center justify-center size-12 rounded-full bg-blue-medium opacity-100 hover:opacity-90"
         // style={props.style}
         onClick={props.onClick}
+        aria-label="slider left arrow button"
       >
         <FaAngleLeft 
           className="fill-blue-dark size-4/5"
@@ -68,6 +69,7 @@ export function ImageSlider(props: { images: any[] }) {
         // className={props.className}
         className="absolute z-10 right-1 top-1/2 -translate-y-6 flex items-center justify-center size-12 rounded-full bg-blue-medium opacity-100 hover:opacity-90"
         // style={props.style}
+        aria-label="slider right arrow button"
         onClick={props.onClick}
       >
         <FaAngleRight 
