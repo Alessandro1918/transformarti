@@ -1,6 +1,7 @@
 // import localFont from "next/font/local"
 import { Nunito_Sans, Montserrat, Lato } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
+import { jsonLd } from "../requests/structured-data"  
 import "./globals.css"
 
 // const geistSans = localFont({
@@ -36,6 +37,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(jsonLd),
+          }}
+        />
+      </head>
       <body
         // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         className={`antialiased font-body ${nunito_sans.variable} ${montserrat.variable} ${lato.variable}`}
