@@ -12,7 +12,7 @@ import { Whatsapp } from "../components/whatsapp"
 
 export const metadata: Metadata = {
   title: "Transformarti Odontologia",
-  description: "Equipe de dentistas especialistas com foco em excelência e atendimento humanizado",
+  description: "Consultório odontológico no Condomínio Parque da Cidade, torre Tarumã, bairro Chácara Santo Antônio, próximo ao shopping Morumbi, shopping Market Place, e estação de trem Morumbi. Dentistas especialistas em procedimentos de restauração, ortodontia, cirurgia ortognática, implantes, próteses, endodontia, periodontia, clareamento dental e harmonização facial.",
   openGraph: {
     title: "Transformarti Odontologia",
     description: "Equipe de dentistas especialistas com foco em excelência e atendimento humanizado",
