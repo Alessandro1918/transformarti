@@ -2,6 +2,7 @@ export const jsonLd = {
   "@context": "https://schema.org",
   "@type": ["Dentist", "HealthAndBeautyBusiness"],
   name: "Transformarti Odontologia",
+  inLanguage: "pt-BR",
   image: [
     "https://www.transformartiodontologia.com.br/assets/logo-bg-blue.png",
     "https://www.transformartiodontologia.com.br/assets/clinic/reception_1.jpg",
