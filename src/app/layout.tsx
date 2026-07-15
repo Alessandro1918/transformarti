@@ -4,16 +4,6 @@ import { Analytics } from "@vercel/analytics/next"
 import { jsonLd } from "../requests/structured-data"  
 import "./globals.css"
 
-// const geistSans = localFont({
-//   src: "./fonts/GeistVF.woff",
-//   variable: "--font-geist-sans",
-//   weight: "100 900",
-// })
-// const geistMono = localFont({
-//   src: "./fonts/GeistMonoVF.woff",
-//   variable: "--font-geist-mono",
-//   weight: "100 900",
-// })
 const nunito_sans = Nunito_Sans({
   weight: "500",
   subsets: ["latin"],
@@ -36,7 +26,10 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="pt-BR">
+    <html 
+      lang="pt-BR"
+      className={`${nunito_sans.variable} ${montserrat.variable} ${lato.variable} h-full antialiased`}
+    >
       <head>
         <script
           type="application/ld+json"
@@ -45,10 +38,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body
-        // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-        className={`antialiased font-body ${nunito_sans.variable} ${montserrat.variable} ${lato.variable}`}
-      >
+      <body className="min-h-full flex flex-col">
         {children}
         <Analytics />
       </body>

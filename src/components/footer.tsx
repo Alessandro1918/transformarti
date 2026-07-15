@@ -116,7 +116,7 @@ Vi o site de vocês, e gostaria de marcar uma consulta.`
           Design e desenvolvimento:
         </p>
         <a 
-          className="text-xs font-semibold text-blue-dark"
+          className="text-xs font-semibold text-blue-dark underline"
           href="https://www.linkedin.com/in/alessandro-bentivegna-cesta-0058a785/"
           aria-label="author linkedin button"
         >
