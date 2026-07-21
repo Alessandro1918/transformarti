@@ -6,7 +6,7 @@ export function About() {
   const clinic = getClinic()
 
   return (
-    <div id="about">
+    <section id="about">
       <h2 hidden>A Clínica</h2>
 
       <div>
@@ -30,6 +30,6 @@ Aqui cada paciente é único, por isso oferecemos atendimento humanizado e trata
       <ImageSlider 
         images={clinic}
       />
-    </div>
+    </section>
   )
 }

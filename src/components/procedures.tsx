@@ -6,7 +6,7 @@ export function Procedures() {
   const procedures = getProcedures()
 
   return (
-    <div 
+    <section 
       id="procedures"
       className="bg-blue-light pb-8"
     >
@@ -37,6 +37,6 @@ export function Procedures() {
           }
         </div>
       </div>
-    </div>
+    </section>
   )
 }
