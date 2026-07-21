@@ -3,7 +3,7 @@ export function Banner() {
   // Background V2: "bg-attachment: fixed" locks the image position to the browser's viewport
   // (and since this position is related to the screen, I have to change the Y axys position depending on the device to keep it responsive).
   return (
-    <div className={`
+    <section className={`
       bg-[url('/assets/banner.jpg')]
       w-full h-96 
       bg-fixed
@@ -18,6 +18,6 @@ export function Banner() {
       <p className="z-10 text-white font-bold font-nunito_sans text-4xl sm:text-5xl w-3/4 sm:w-1/2 sm:px-8">
         Equipe de dentistas especialistas com foco em excelência e atendimento humanizado
       </p>
-    </div>
+    </section>
   )
 }

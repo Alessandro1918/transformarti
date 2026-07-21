@@ -6,7 +6,7 @@ export function Team() {
   const team = getTeam()
 
   return (
-    <div id="team">
+    <section id="team">
       <h2 hidden>Equipe</h2>
 
       <div>
@@ -35,6 +35,6 @@ export function Team() {
           }
         </div>
       </div>
-    </div>
+    </section>
   )
 }

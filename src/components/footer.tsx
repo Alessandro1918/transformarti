@@ -16,7 +16,7 @@ Vi o site de vocês, e gostaria de marcar uma consulta.`
   const whatsappUrl = `https://api.whatsapp.com/send/?phone=${whatsappPhone}&text=${whatsappEncodedText}`
 
   return (
-    <div className="mt-4 flex flex-col items-center justify-center bg-blue-light">
+    <footer className="mt-4 flex flex-col items-center justify-center bg-blue-light">
 
       {/* 1: Contact info */}
       <div className="flex flex-col sm:flex-row w-full gap-4 p-4">
@@ -123,6 +123,6 @@ Vi o site de vocês, e gostaria de marcar uma consulta.`
           Alessandro B. Cesta
         </a>
       </div>
-    </div>
+    </footer>
   )
 }
