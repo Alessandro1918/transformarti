@@ -47,7 +47,7 @@ type FeatureProps = {
 function Feature(props: FeatureProps) {
   return (
     <div className="gap-2 flex flex-col">
-      <span className="text-xl lg:text-4xl text-blue-dark">
+      <span className="text-xl lg:text-3xl text-blue-dark">
         {props.title}
       </span>
       <span className="text-sm lg:text-base">
