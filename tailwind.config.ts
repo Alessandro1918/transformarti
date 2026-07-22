@@ -21,7 +21,7 @@ const config: Config = {
         foreground: "var(--foreground)",
         blue: {
           light: colors.blue[100],
-          medium: colors.blue[300],
+          medium: colors.blue[500],
           dark: colors.sky[800],
         }
       },

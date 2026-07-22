@@ -18,7 +18,7 @@ export function Team() {
         </p>
       </div>
 
-      <div className="mx-auto mt-8">
+      <div className="mx-auto my-8">
         <div className="flex flex-wrap gap-4 sm:gap-6 justify-center items-start">
           {
             team.map(( e, i ) => {
