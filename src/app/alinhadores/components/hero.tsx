@@ -1,8 +1,8 @@
 export function Hero() {
   return (
-    <section className="p-6 gap-16 w-full flex flex-col lg:flex-row items-center justify-center text-gray-500 bg-gray-50">
+    <section className="p-6 gap-16 w-full flex flex-col lg:flex-row items-center justify-center bg-gray-50">
       <div className="w-full lg:w-2/3 max-w-[calc(2/3*1024px)] gap-4 flex flex-col order-2 lg:order-1 justify-between">
-        <span className="text-blue-dark text-4xl">
+        <span className="text-blue-dark text-4xl font-bold">
           Alinhe seu sorriso de forma
           <span className="text-blue-medium italic">
             {" quase invisível"}
