@@ -4,7 +4,7 @@ import { TreatmentSlider } from "./treatment-slider"
 
 export function Treatment() {
   return (
-    <section className="p-6 gap-16 w-full flex flex-col items-center justify-center bg-gray-50">
+    <section className="p-6 gap-8 w-full flex flex-col items-center justify-center bg-gray-50">
 
       <span className="text-blue-dark text-3xl font-bold">
         Como funciona o tratamento

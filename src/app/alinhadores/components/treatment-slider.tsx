@@ -56,8 +56,8 @@ export function TreatmentSlider(props: { steps: TreatmentItemProps[] }) {
   const dotsClassName = `
     slick-dots
     !flex justify-center gap-2 
-    [&_.slick-active_div]:!bg-blue-dark
-    [&_.slick-active_div]:scale-175
+    [&_.slick-active_div]:bg-blue-dark
+    [&_.slick-active_div]:scale-125
   `
 
   return (

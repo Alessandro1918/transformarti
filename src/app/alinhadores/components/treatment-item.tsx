@@ -12,7 +12,7 @@ export function TreatmentItem(props: TreatmentItemProps) {
           {props.index}
         </span>
       </div>
-      <span className="text-blue-dark text-xl">
+      <span className="text-blue-dark text-xl font-semibold">
         {props.title}
       </span>
       <p>
