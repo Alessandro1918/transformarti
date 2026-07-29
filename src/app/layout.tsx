@@ -1,7 +1,7 @@
 // import localFont from "next/font/local"
 import { Nunito_Sans, Montserrat, Lato } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
-import { jsonLd } from "../requests/structured-data"  
+import jsonLd from "@/app/data/structured-data.json"  
 import "./globals.css"
 
 const nunito_sans = Nunito_Sans({

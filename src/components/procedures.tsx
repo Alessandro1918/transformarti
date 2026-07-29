@@ -1,9 +1,7 @@
+import procedures from "@/app/data/procedures.json"
 import { ProcedureItem } from "../components/procedure-item"
-import { getProcedures } from "../requests/get-procedures"
 
 export function Procedures() {
-
-  const procedures = getProcedures()
 
   return (
     <section 

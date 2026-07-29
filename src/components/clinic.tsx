@@ -1,9 +1,7 @@
-import { ImageSlider } from "../components/slider"
-import { getClinic } from "../requests/get-clinic"
+import clinic from "@/app/data/clinic.json"
+import { ImageSlider } from "./slider"
 
-export function About() {
-
-  const clinic = getClinic()
+export function Clinic() {
 
   return (
     <section id="about">

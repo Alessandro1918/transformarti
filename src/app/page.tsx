@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next"
 import { Header } from "../components/header"
 import { Banner } from "../components/banner"
-import { About } from "../components/about"
+import { Clinic } from "../components/clinic"
 import { Procedures } from "../components/procedures"
 import { Team } from "../components/team"
 import { Footer } from "../components/footer"
@@ -31,7 +31,7 @@ export default function Home() {
     <div>
       <Header />
       <Banner />
-      <About />
+      <Clinic />
       <Procedures />
       <Team />
       <Footer />
