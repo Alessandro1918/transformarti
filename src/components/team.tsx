@@ -1,9 +1,7 @@
+import team from "@/app/data/team.json"
 import { TeamItem } from "../components/team-item"
-import { getTeam } from "../requests/get-team"
 
 export function Team() {
-
-  const team = getTeam()
 
   return (
     <section id="team">
