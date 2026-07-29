@@ -4,6 +4,7 @@ import { Whatsapp } from "@/components/whatsapp"
 import { Hero } from "./components/hero"
 import { Features } from "./components/features"
 import { Treatment } from "./components/treatment"
+import { FAQ } from "./components/faq"
 
 export default function Page() {
   return (
@@ -12,6 +13,7 @@ export default function Page() {
       <Hero />
       <Features />
       <Treatment />
+      <FAQ />
       <Footer />
       <Whatsapp />
     </div>
