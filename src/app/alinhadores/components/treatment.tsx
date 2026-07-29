@@ -1,4 +1,4 @@
-import steps from "../../../../public/alinhadores-tratamento.json"
+import steps from "../../../../public/alinhadores/tratamento.json"
 import { TreatmentItem } from "./treatment-item"
 import { TreatmentSlider } from "./treatment-slider"
 
@@ -6,9 +6,9 @@ export function Treatment() {
   return (
     <section className="p-6 gap-8 w-full flex flex-col items-center justify-center bg-gray-50">
 
-      <span className="text-blue-dark text-3xl font-bold">
+      <h2 className="text-blue-dark text-3xl font-bold">
         Como funciona o tratamento
-      </span>
+      </h2>
 
       {/* Mobile (< lg): */}
       <div className="size-full visible lg:hidden">
