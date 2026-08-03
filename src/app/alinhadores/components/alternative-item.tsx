@@ -1,4 +1,4 @@
-// import { IconType } from "react-icons"
+import { IconType } from "react-icons"
 import { getWhatsappUrl } from "../../functions/get-whatsapp-url"
 
 type AlternativeItemProps = {
@@ -10,6 +10,7 @@ type AlternativeItemProps = {
   buttonMessage: string
 }
 
+// export function AlternativeItem({ icon: Icon, title, description, buttonText, buttonMessage }: AlternativeItemProps) {
 export function AlternativeItem({ icon, title, description, buttonText, buttonMessage }: AlternativeItemProps) {
   return (
     <div className="flex flex-row gap-4 items-start justify-center">

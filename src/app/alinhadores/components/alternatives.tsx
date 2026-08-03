@@ -1,4 +1,4 @@
-import { FaEyeSlash } from "react-icons/fa6"
+// import { FaEyeSlash } from "react-icons/fa6"
 import { AlternativeItem } from "./alternative-item"
 
 export function Alternatives() {
@@ -15,6 +15,7 @@ export function Alternatives() {
 
         <div className="gap-4 lg:gap-8 flex flex-col lg:flex-row">
           <AlternativeItem
+            // icon={FaEyeSlash}
             icon="./assets/icons/aparelho-fixo.svg"
             title="Aparelhos fixos"
             description="Brackets colados aos dentes, indicados para correções mais complexas em qualquer idade."
@@ -22,6 +23,7 @@ export function Alternatives() {
             buttonMessage={`Boa tarde!\nGostaria de mais informações sobre o tratamento com aparelhos fixos`}
           />
           <AlternativeItem
+            // icon={FaEyeSlash}
             icon="./assets/icons/aparelho-movel.svg"
             title="Aparelhos móveis"
             description="Placas removíveis voltadas para crianças em fase de crescimento e correções mais simples."

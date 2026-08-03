@@ -6,6 +6,7 @@ import { Features } from "./components/features"
 import { Treatment } from "./components/treatment"
 import { FAQ } from "./components/faq"
 import { Alternatives } from "./components/alternatives"
+import { Contact } from "./components/contact"
 
 export default function Page() {
   return (
@@ -16,6 +17,7 @@ export default function Page() {
       <Treatment />
       <FAQ />
       <Alternatives />
+      <Contact />
       <Footer />
       <Whatsapp />
     </div>
