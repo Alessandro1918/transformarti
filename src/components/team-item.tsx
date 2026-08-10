@@ -45,8 +45,8 @@ export function TeamItem({ image, name, title, description }: TeamItemProps) {
         id={`card-${name}`}
         className="mt-12 px-4 h-72 pb-8 isClosed"
       >
-        <p className="mt-20 text-xl font-bold">{name}</p>
-        <p className="mt-0 text-sm text-gray-500">{title}</p>
+        <p className="mt-20 text-xl font-bold text-black">{name}</p>
+        <p className="mt-0 text-sm">{title}</p>
         <p 
           id={`description-${name}`}
           className="mt-2 text-base leading-tight line-clamp-4"

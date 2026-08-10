@@ -42,7 +42,7 @@ export function ProcedureItem({image, title, description}: ProcedureItemProps) {
         id={`card-${title}`}
         className="mt-4 px-3 h-44 pb-8 isClosed"
       >
-        <p className="text-center font-bold">
+        <p className="text-black text-center font-bold">
           {title}
         </p>
 
