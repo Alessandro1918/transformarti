@@ -5,18 +5,16 @@ export function Team() {
 
   return (
     <section id="team">
-      <h2 hidden>Equipe</h2>
-
       <div>
-        <p className="mt-12 px-4 text-6xl font-bold font-montserrat text-blue-dark opacity-20">
+        <h2 className="mt-12 px-4 text-6xl font-bold font-montserrat text-blue-dark opacity-20">
           Equipe
-        </p>
+        </h2>
         <p className="-mt-6 px-8 text-4xl font-bold font-montserrat text-blue-dark">
           Conheça nosso time
         </p>
       </div>
 
-      <div className="mx-auto mt-8">
+      <div className="mx-auto my-8">
         <div className="flex flex-wrap gap-4 sm:gap-6 justify-center items-start">
           {
             team.map(( e, i ) => {
