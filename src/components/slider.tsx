@@ -1,4 +1,5 @@
 "use client"
+import { useState, useEffect } from "react"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
 import Slider from "react-slick"
@@ -8,43 +9,18 @@ import { FaAngleLeft } from "react-icons/fa"
 //https://flowbite.com/docs/components/carousel/
 export function ImageSlider(props: { images: any[] }) {
 
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    centerMode: true,
-    // initialSlide: window && window.innerWidth < 640 ? 0 : 1,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          // initialSlide: 2,
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-          // initialSlide: 1,
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          // initialSlide: 0,
-        }
-      }
-    ],
-    prevArrow: <PrevArrow />,
-    nextArrow: <NextArrow />,
-  }
+  const [ isDesktop, setIsDesktop ] = useState(false)
+
+  // Any screen width equal or below the value hardcoded here is "mobile"
+  useEffect(() => {
+    const media = window.matchMedia("(min-width: 640px)")
+    function update() {
+      setIsDesktop(media.matches)
+    }
+    update()
+    media.addEventListener("change", update)
+    return () => media.removeEventListener("change", update)
+  }, [])
 
   function PrevArrow(props: any) {
     return (
@@ -81,8 +57,34 @@ export function ImageSlider(props: { images: any[] }) {
 
   return (
     <Slider 
-      {...settings}
-      className="mt-4 px-4 w-full"
+      arrows
+      prevArrow={<PrevArrow />}
+      nextArrow={<NextArrow />}
+      dots
+      infinite
+      speed={500} // transition time
+      slidesToShow={isDesktop? 4 : 1}
+      slidesToScroll={1}
+      centerMode
+      responsive={[
+        {
+          // lg:
+          // Largest responsive breakpoint. Copy this "slidesToShow" value to the Slider "slidesToShow" settings above
+          breakpoint: 1024,
+          settings: {slidesToShow: 4}
+        }, {
+          // md:
+          breakpoint: 768,
+          settings: {slidesToShow: 2}
+        }, {
+          // Largest breakpoint with same "slidesToShow" as "mobile".
+          // Copy this value to the "useEffect" above
+          // sm:
+          breakpoint: 640,
+          settings: {slidesToShow: 1}
+        }
+      ]}
+      className="mt-8 px-4 w-full"
     >
       {
         props.images.map((e: any, i) => {

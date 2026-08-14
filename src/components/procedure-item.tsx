@@ -35,7 +35,7 @@ export function ProcedureItem({image, title, description}: ProcedureItemProps) {
 
         <p 
           className={`
-            mt-4 text-left text-base leading-tight 
+            mt-4 text-base leading-tight 
             ${isClosed && "line-clamp-4"}
           `}
         >
