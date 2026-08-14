@@ -32,11 +32,11 @@ export function TeamItem({ image, name, title, description }: TeamItemProps) {
           ${isClosed && "h-72"}
         `}
       >
-        <p className="mt-20 text-xl font-bold text-black">{name}</p>
+        <p className="mt-8 mobile_md:mt-20 text-xl font-bold text-black">{name}</p>
         <p className="mt-0 text-sm">{title}</p>
         <p 
           className={`
-            mt-2 text-base leading-tight 
+            mt-4 text-base leading-tight 
             ${isClosed && "line-clamp-4"}
           `}
         >
