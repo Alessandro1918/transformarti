@@ -4,7 +4,7 @@ import { ImageSlider } from "./slider"
 export function Clinic() {
 
   return (
-    <section id="about">
+    <section id="about" className="overflow-x-hidden">
       <div>
         <p className="mt-12 px-4 text-6xl font-bold text-blue-dark opacity-20">
           Conheça
