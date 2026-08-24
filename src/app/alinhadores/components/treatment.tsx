@@ -1,4 +1,4 @@
-import steps from "../../../../public/alinhadores/tratamento.json"
+import steps from "@/app/data/alinhadores/treatment.json"
 import { TreatmentItem } from "./treatment-item"
 import { TreatmentSlider } from "./treatment-slider"
 

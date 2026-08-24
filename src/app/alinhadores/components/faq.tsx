@@ -1,4 +1,4 @@
-import faqs from "../../../../public/alinhadores/faq.json"
+import faqs from "@/app/data/alinhadores/faq.json"
 import { FaqItem } from "./faq-item"
 
 export function FAQ() {
