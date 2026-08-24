@@ -10,7 +10,7 @@ export function Hero() {
             {" quase invisível"}
           </span>
         </h2>
-        <p className="text-2xl">
+        <p className="text-2xl text-justify">
           Placas transparentes, removíveis e feitas sob medida para o seu sorriso. Sem metal, sem fio, sem abrir mão da rotina — só o resultado que você já imaginou.
         </p>
         <div className="h-[1px] w-full bg-gray-300"/>

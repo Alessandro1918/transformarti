@@ -12,7 +12,7 @@ export function FeatureItem({ icon: Icon, text, description }: FeatureItemProps)
       <Icon className="text-blue-dark size-8"/>
       <div className="flex flex-col gap-2">
         <span className="text-blue-dark font-bold text-xl">{text}</span>
-        <p>{description}</p>
+        <p className="text-justify">{description}</p>
       </div>
     </div>
   )

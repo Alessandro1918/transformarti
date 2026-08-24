@@ -10,7 +10,7 @@ import { Contact } from "./components/contact"
 
 export default function Page() {
   return (
-    <div className="text-gray-500">
+    <div>
       <Header />
       <Hero />
       <Features />

@@ -5,17 +5,17 @@ import { FeatureItem } from "./feature-item"
 export function Features() {
   return (
     <section className="p-6 gap-16 w-full flex flex-col lg:flex-row items-center justify-center bg-blue-light">
-      <div className="w-full lg:w-1/3 max-w-[calc(1/3*1024px)] flex items-center justify-center">
+      <div className="w-full lg:w-4/6 max-w-[calc(4/6*1024px)] flex items-center justify-center">
         <img 
           src="/assets/alinhador-utilização.jpg"
           className="size-full aspect-auto object-cover rounded-3xl shadow-md shadow-gray-400"
         />
       </div>
-      <div className="w-full lg:w-2/3 max-w-[calc(2/3*1024px)] gap-8 flex flex-col justify-between">
+      <div className="w-full lg:w-5/6 max-w-[calc(5/6*1024px)] gap-8 flex flex-col justify-between">
         <h2 className="text-blue-dark text-3xl font-bold">
           A forma mais discreta de alinhar os dentes
         </h2>
-        <p className="text-2xl">
+        <p className="text-2xl text-justify">
           Os alinhadores são placas transparentes produzidas sob medida a partir do escaneamento do seu sorriso. Cada placa move os dentes um pouco mais até chegar à posição final planejada — com previsibilidade e conforto do início ao fim.
         </p>
         <div className="h-[1px] w-full bg-gray-300"/>
