@@ -1,0 +1,34 @@
+import steps from "@/app/data/alinhadores/treatment.json"
+import { TreatmentItem } from "./treatment-item"
+import { TreatmentSlider } from "./treatment-slider"
+
+export function Treatment() {
+  return (
+    <section className="p-6 gap-8 w-full flex flex-col items-center justify-center bg-gray-50">
+
+      <h2 className="text-blue-dark text-3xl font-bold">
+        Como funciona o tratamento
+      </h2>
+
+      {/* Mobile (< lg): */}
+      <div className="size-full visible lg:hidden">
+        <TreatmentSlider steps={steps}/>
+      </div>
+
+      {/* Desktop (>= lg): */}
+      <div className={`
+        max-lg:hidden visible
+        flex flex-row gap-4
+        w-full px-8
+      `}>
+        {
+          steps.map((e, i) => {
+            return (
+              <TreatmentItem key={i} {...e}/>
+            )
+          })
+        }
+      </div>
+    </section>
+  )
+}

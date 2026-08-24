@@ -16,7 +16,7 @@ Vi o site de vocês, e gostaria de marcar uma consulta.`
   const whatsappUrl = `https://api.whatsapp.com/send/?phone=${whatsappPhone}&text=${whatsappEncodedText}`
 
   return (
-    <footer className="mt-4 flex flex-col items-center justify-center bg-blue-light">
+    <footer className="flex flex-col items-center justify-center bg-blue-light">
 
       {/* 1: Contact info */}
       <div className="flex flex-col sm:flex-row w-full gap-4 p-4">
@@ -81,7 +81,7 @@ Vi o site de vocês, e gostaria de marcar uma consulta.`
             aria-label="telephone button"
           >
             <FaPhoneAlt className="fill-blue-dark size-4"/>
-            <p className="text-blue-dark font-medium">
+            <p className="text-blue-dark font-medium underline">
               (11) 96574-5577
             </p>
           </a>
@@ -92,7 +92,7 @@ Vi o site de vocês, e gostaria de marcar uma consulta.`
             aria-label="whatsapp button"
           >
             <FaWhatsapp className="fill-blue-dark size-4"/>
-            <p className="text-blue-dark font-medium">
+            <p className="text-blue-dark font-medium underline">
               (11) 96574-5577
             </p>
           </a>
@@ -103,7 +103,7 @@ Vi o site de vocês, e gostaria de marcar uma consulta.`
             aria-label="instagram button"
           >
             <FaInstagram className="fill-blue-dark size-4"/>
-            <p className="text-blue-dark font-medium">
+            <p className="text-blue-dark font-medium underline">
               @transformartiodontologia
             </p>
           </a>
