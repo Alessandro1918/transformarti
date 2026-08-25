@@ -29,7 +29,7 @@ export const viewport: Viewport = {
 export default function Home() {
   return (
     <div>
-      <Header />
+      <Header page="/"/>
       <Banner />
       <Clinic />
       <Procedures />

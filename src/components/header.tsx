@@ -1,8 +1,8 @@
 "use client"
 import { Link } from "react-scroll" //"to" prop: anchor; "href" prop: SEO track
-// import { FaBars } from "react-icons/fa"
 
-export function Header() {
+export function Header(props: { page: string }) {
+
   return (
     <header className="flex w-full h-32 items-center justify-center px-4 bg-blue-light">
       <h1 hidden>Transformarti Odontologia</h1>
@@ -17,23 +17,34 @@ export function Header() {
 
       {/* Top Header options: visible from "desktop" only */}
       <div className="flex flex-1 flex-row justify-center gap-4 max-sm:hidden">
-        <Link to="about" href="#about" smooth duration={500}>
-          <p className="cursor-pointer text-2xl text-blue-dark">Sobre</p>
-        </Link>
-        <Link to="procedures" href="#procedures" smooth duration={500}>
-          <p className="cursor-pointer text-2xl text-blue-dark">Tratamentos</p>
-        </Link>
-        <Link to="team" href="#team" smooth duration={500}>
-          <p className="cursor-pointer text-2xl text-blue-dark">Equipe</p>
-        </Link>
-      </div>
+        {
+          props.page == "/" && <>
+            <Link to="about" href="#about" smooth duration={500}>
+              <p className="cursor-pointer text-2xl text-blue-dark">Sobre</p>
+            </Link>
+            <Link to="procedures" href="#procedures" smooth duration={500}>
+              <p className="cursor-pointer text-2xl text-blue-dark">Tratamentos</p>
+            </Link>
+            <Link to="team" href="#team" smooth duration={500}>
+              <p className="cursor-pointer text-2xl text-blue-dark">Equipe</p>
+            </Link>
+          </>
+        }
 
-      {/* <div className="sm:hidden">
-        <FaBars 
-          id="open-sidebar-button"
-          className="size-6 fill-blue-dark"
-        />
-      </div> */}
+        {
+          props.page == "/alinhadores" && <>
+            <Link to="treatment" href="#treatment" smooth duration={500}>
+              <p className="cursor-pointer text-2xl text-blue-dark">Tratamento</p>
+            </Link>
+            <Link to="faq" href="#faq" smooth duration={500}>
+              <p className="cursor-pointer text-2xl text-blue-dark">FAQ</p>
+            </Link>
+            <Link to="alternatives" href="#alternatives" smooth duration={500}>
+              <p className="cursor-pointer text-2xl text-blue-dark">Alternativas</p>
+            </Link>
+          </>
+        }
+      </div>
     </header>
   )
 }
