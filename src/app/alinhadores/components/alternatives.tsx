@@ -3,7 +3,10 @@ import { AlternativeItem } from "./alternative-item"
 
 export function Alternatives() {
   return (
-    <section className="p-6 gap-8 w-full flex flex-col items-center justify-center bg-gray-50">
+    <section 
+      id="alternatives"
+      className="p-6 gap-8 w-full flex flex-col items-center justify-center bg-gray-50"
+    >
       <h2 className="text-blue-dark text-3xl font-bold">
         Outras alternativas
       </h2>

@@ -11,7 +11,7 @@ import { Contact } from "./components/contact"
 export default function Page() {
   return (
     <div>
-      <Header />
+      <Header page="/alinhadores"/>
       <Hero />
       <Features />
       <Treatment />
