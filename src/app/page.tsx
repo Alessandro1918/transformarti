@@ -1,4 +1,4 @@
-import type { Metadata, Viewport } from "next"
+import type { Metadata } from "next"
 import { Header } from "../components/header"
 import { Banner } from "../components/banner"
 import { Clinic } from "../components/clinic"
@@ -17,13 +17,11 @@ export const metadata: Metadata = {
     title: "Transformarti Odontologia",
     description: "Equipe de dentistas especialistas com foco em excelência e atendimento humanizado",
     images: [{
+      width: 560,
+      height: 280,
       url: "/assets/opengraph-image.png",
     }],
   }
-}
-
-export const viewport: Viewport = {
-  themeColor: '#DBEAFE',  //blue-100 (light)
 }
 
 export default function Home() {
