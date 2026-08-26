@@ -1,4 +1,4 @@
-// import localFont from "next/font/local"
+import type { Viewport } from "next"
 import { Nunito_Sans, Montserrat, Lato } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import jsonLd from "@/app/data/structured-data.json"  
@@ -19,6 +19,10 @@ const lato = Lato({
   subsets: ["latin"],
   variable: "--font-lato"
 })
+
+export const viewport: Viewport = {
+  themeColor: '#DBEAFE',  //blue-100 (light)
+}
 
 export default function RootLayout({
   children,
