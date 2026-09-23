@@ -31,7 +31,7 @@ export function Hero() {
       </div>
       <div className="relative w-full lg:w-1/3 max-w-[calc(1/3*1024px)] flex items-center justify-center order-1 lg:order-2 rounded-3xl bg-white drop-shadow-md shadow-gray-400">
         <img 
-          src="/assets/alinhador.png"
+          src="/assets/alinhadores/alinhador.png"
           className="size-full aspect-square object-cover"
         />
         <ImageTag text="Troca a cada 1-2 semanas" className="top-4 -left-4" />

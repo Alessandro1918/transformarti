@@ -16,7 +16,7 @@ export function Alternatives() {
           Em alguns casos — principalmente infantis ou de maior complexidade — outras soluções podem ser mais indicadas. Nossa equipe avalia e recomenda o melhor caminho para você.
         </p>
 
-        <div className="gap-4 lg:gap-8 flex flex-col lg:flex-row">
+        <div className="gap-12 lg:gap-8 flex flex-col lg:flex-row">
           <AlternativeItem
             // icon={FaEyeSlash}
             icon="./assets/icons/aparelho-fixo.svg"
