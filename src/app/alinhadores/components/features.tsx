@@ -7,7 +7,7 @@ export function Features() {
     <section className="p-6 gap-16 w-full flex flex-col lg:flex-row items-center justify-center bg-blue-light">
       <div className="w-full lg:w-4/6 max-w-[calc(4/6*1024px)] flex items-center justify-center">
         <img 
-          src="/assets/alinhador-utilização.jpg"
+          src="/assets/alinhadores/utilização.jpg"
           className="size-full aspect-auto object-cover rounded-3xl shadow-md shadow-gray-400"
         />
       </div>

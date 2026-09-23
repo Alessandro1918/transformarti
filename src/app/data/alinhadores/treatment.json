@@ -2,18 +2,22 @@
   {
     "index": 1,
     "title": "Escaneamento digital",
+    "image": "/assets/alinhadores/treatment/1.jpg",
     "description": "Mapeamento 3D dos seus dentes, sem moldes de silicone."
   }, {
     "index": 2,
     "title": "Simulação do resultado",
+    "image": "/assets/alinhadores/treatment/2.jpg",
     "description": "Você vê a previsão do sorriso final antes de iniciar."
   }, {
     "index": 3,
     "title": "Uso e trocas",
+    "image": "/assets/alinhadores/treatment/3.jpg",
     "description": "Placas usadas por 20 a 22h por dia, trocadas a cada 1–2 semanas."
   }, {
     "index": 4,
     "title": "Contenção",
+    "image": "/assets/alinhadores/treatment/4.jpg",
     "description": "Placa de manutenção para preservar o alinhamento conquistado."
   }
 ]

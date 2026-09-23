@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     images: [{
       width: 560,
       height: 280,
-      url: "/assets/og-image-alinhadores.png",
+      url: "/assets/alinhadores/opengraph-image.png",
     }],
   }
 }
