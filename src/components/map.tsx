@@ -1,3 +1,4 @@
+/// <reference types="google.maps" />
 "use client"
 import { useEffect, useRef, useState } from "react"
 import { setOptions, importLibrary } from "@googlemaps/js-api-loader"
